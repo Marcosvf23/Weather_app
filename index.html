@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clima Hoje</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="app-container">
-        <div class="left-column">
-            <nav class="navbar-container">
-                <img src="./images/logo.svg" alt="Clima Hoje">
-                <input class="custom-input" type="text" name="city" id="city" placeholder="Procure por cidades">
-            </nav>
+      <div class="left-column">
+        <nav class="navbar-container">
+          <img src="./images/logo.svg" alt="Clima Hoje" />
+          <input
+            class="custom-input"
+            type="text"
+            name="city"
+            id="city"
+            placeholder="Procure por cidades"
+          />
+        </nav>
 
-            <div class="showcase-container">
-                <div class="shocase-text">
-                    <h2 class="h2-city">São Paulo</h2>
-                    <p class="temperatura">Chance de chuva 0%</p>
-                    <h2 class="h2-grau">28°</h2>
-                </div>
+        <div class="showcase-container">
+          <div class="shocase-text">
+            <h2 class="h2-city">São Paulo</h2>
+            <p class="temperatura">Chance de chuva 0%</p>
+            <h2 class="h2-grau">28°</h2>
+          </div>
 
-                <img src="./images/sun clouds.svg" alt="Sol com poucas nuvens">
-            </div>
-            
-
+          <img src="./images/sun clouds.svg" alt="Sol com poucas nuvens" />
         </div>
-        
-        
+
+        <div class="hourly-forecast-container">
+          <div class="hour-weather-item">
+            <p>6:00 AM</p>
+            <img src="./images/sun cloud big.svg" alt="Sol com poucas nuvens" />
+            <p>24°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>9:00 AM</p>
+            <img src="./images/sun 2clouds.svg" alt="Sol com muitas nuvens" />
+            <p>28°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>12:00 PM</p>
+            <img src="./images/sun.svg" alt="Sol com muitas nuvens" />
+            <p>30°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>3:00 PM</p>
+            <img src="./images/sun 2.svg" alt="Sol com muitas nuvens" />
+            <p>32°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>6:00 PM</p>
+            <img src="./images/clouds.svg" alt="Sol com muitas nuvens" />
+            <p>27°</p>
+          </div>
+          <div class="hour-weather-item">
+            <p>9:00 PM</p>
+            <img src="./images/moon clouds.svg" alt="Sol com muitas nuvens" />
+            <p>26°</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
