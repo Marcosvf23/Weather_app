@@ -27,6 +27,32 @@ body{
     margin-right: 10px;
 }
 
+.showcase-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 60px;
+}
+
+.h2-city{
+    font-size: 3.125rem;
+    font-weight:700;
+    color: #2a394f;
+}
+
+.h2-grau{
+    font-size: 5.125rem;
+    font-weight: 700;
+    color: #2a394f;
+}
+
+.temperatura{
+    color: #9aa0a8;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
 .custom-input{
     border: none;
     border-radius: 15px;
